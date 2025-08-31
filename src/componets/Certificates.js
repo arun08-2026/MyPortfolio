@@ -80,11 +80,7 @@ export default function Certificates() {
                                 </div>
                             </div>
                              {/* Certificate Card 8 */}
-                            <div className="carousel-card w-full md:w-1/2 lg:w-1/3 flex-shrink-0 p-3">
-                                <div className="bg-gray-800 rounded-lg shadow-lg overflow-hidden h-full flex items-center justify-center p-4">
-                                    <img src={C5} alt="" className="w-full h-auto object-contain" />
-                                </div>
-                            </div>
+                            
                         </div>
                         {/* Carousel Buttons */}
                         <button onClick={() => handleSlide('prev')} className="carousel-button prev absolute top-1/2 left-0 -translate-y-1/2 bg-gray-700/50 hover:bg-gray-700 rounded-full w-10 h-10 flex items-center justify-center shadow-md z-10">&#10094;</button>

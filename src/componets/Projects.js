@@ -2,6 +2,8 @@ import { useState, useRef } from 'react';
 import FadeIn from './FadeIn';
 import mcpimg from '../assets/mcpnew.jpeg';
 import Calculaterpimg from '../assets/calculatorimg.png';
+import movieimg from '../assets/movieimg.png';
+
 
 export default function Projects() {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -58,7 +60,7 @@ export default function Projects() {
                                         <h3 className="text-xl font-semibold mb-2">Calculator</h3>
                                         <p className="text-gray-400 mb-4 flex-grow">Built a fully functional calculator using HTML, CSS, and JavaScript with support for basic arithmetic operations.</p>
                                         <div className="mt-auto">
-                                            <a href="https://arun202608-lab.github.io/Calculater/" target="_blank" rel="noopener noreferrer" className="text-teal-400 font-semibold hover:underline mr-4">Live Demo</a>
+                                            <a href="https://arun08-2026.github.io/calculator/" target="_blank" rel="noopener noreferrer" className="text-teal-400 font-semibold hover:underline mr-4">Live Demo</a>
                                         </div>
                                     </div>
                                 </div>
@@ -67,12 +69,12 @@ export default function Projects() {
                             {/* Card 3: Drum Kit */}
                             <div className="carousel-card w-full md:w-1/2 lg:w-1/3 flex-shrink-0 p-3">
                                 <div className="bg-gray-800 rounded-lg shadow-lg overflow-hidden h-full flex flex-col">
-                                    <img src="#" alt="Drum Kit" className="w-full h-48 object-cover"/>
+                                    <img src={movieimg} alt="Drum Kit" className="w-full h-48 object-cover"/>
                                     <div className="p-6 flex flex-col flex-grow">
-                                        <h3 className="text-xl font-semibold mb-2">Drum Kit</h3>
-                                        <p className="text-gray-400 mb-4 flex-grow">Created a virtual drum kit that plays different sounds on keypress using JavaScript.</p>
+                                        <h3 className="text-xl font-semibold mb-2">Stream website demo Website</h3>
+                                        <p className="text-gray-400 mb-4 flex-grow">Built a fully netflix Model webpage using HTML ,CSS and JavaScript with support for Bootstarp for layout.</p>
                                         <div className="mt-auto">
-                                            <a href="#" target="_blank" rel="noopener noreferrer" className="text-teal-400 font-semibold hover:underline mr-4">Live Demo</a>
+                                            <a href="https://arun08-2026.github.io/firstweb/" target="_blank" rel="noopener noreferrer" className="text-teal-400 font-semibold hover:underline mr-4">Live Demo</a>
                                         </div>
                                     </div>
                                 </div>
