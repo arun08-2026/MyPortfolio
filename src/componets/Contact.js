@@ -52,7 +52,7 @@ export default function Contact() {
                             <FaPhone className="text-teal-400 text-2xl"/>
                             <div>
                                 <h3 className="font-bold text-lg">Phone</h3>
-                                <a href="tel:+91 8148645255" className="text-gray-300 hover:text-teal-400">+91 8148645255</a>
+                                <a href="tel:8148645255" className="text-gray-300 hover:text-teal-400">+91 8148645255</a>
                             </div>
                         </div>
                         <div className="flex items-center space-x-4">
