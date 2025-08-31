@@ -45,14 +45,14 @@ export default function Contact() {
                             <FaEnvelope className="text-teal-400 text-2xl"/>
                             <div>
                                 <h3 className="font-bold text-lg">Email</h3>
-                                <a href="mailto:arun.s@example.com" className="text-gray-300 hover:text-teal-400">arun202608@gmail.com</a>
+                                <a href="mailto:arun202608@gmail.com" className="text-gray-300 hover:text-teal-400">arun202608@gmail.com</a>
                             </div>
                         </div>
                         <div className="flex items-center space-x-4">
                             <FaPhone className="text-teal-400 text-2xl"/>
                             <div>
                                 <h3 className="font-bold text-lg">Phone</h3>
-                                <a href="tel:+911234567890" className="text-gray-300 hover:text-teal-400">+91 8148645255</a>
+                                <a href="tel:+918148645255" className="text-gray-300 hover:text-teal-400">+91 8148645255</a>
                             </div>
                         </div>
                         <div className="flex items-center space-x-4">
