@@ -1,5 +1,5 @@
 import ProfImg from '../assets/profimage.png';
-import resumeimg from '../assets/myrersume.pdf';
+import resumeimg from '../assets/ArunS-Resume-final.pdf';
 import {
     AiOutlineTwitter,
     AiOutlineLinkedin,
